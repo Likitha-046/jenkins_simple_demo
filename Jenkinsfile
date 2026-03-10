@@ -4,7 +4,7 @@ pipeline{
     stage('Clone'){
       steps{
         git branch: 'main',
-          url : 'https://github.com/Manyaharish14/new_m.git'
+          url : 'https://github.com/Likitha-046/jenkins_simple_demo.git'
       }
     }
     stage('Run Script'){
